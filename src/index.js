@@ -25,7 +25,7 @@ const DEFAULT_COMPONENTS_TO_RENDER_LENGTH = 0;
 const DEFAULT_ANIMATION_TIMER_BUFFER = 200;
 const KEY_UP = 38;
 const KEY_DOWN = 40;
-const MINIMAL_DELTA_Y_DIFFERENCE = 1;
+const MINIMAL_DELTA_Y_DIFFERENCE = 100;
 const DISABLED_CLASS_NAME = "rps-scroll--disabled";
 
 let previousTouchMove = null;
